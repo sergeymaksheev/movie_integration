@@ -6,5 +6,5 @@ class KinoPoiskAsyncClient(BaseHttpAsyncClient):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.base_url='https://api.kinopoisk.dev/'
-        #self.params = {"token": '1HSYQ5M-E8M4FA2-JD4012J-F6G72XS'}
+        self.params = {"token": '1HSYQ5M-E8M4FA2-JD4012J-F6G72XS'}
         
